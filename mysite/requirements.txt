@@ -21,12 +21,15 @@ defusedxml==0.7.1
 Django==4.2.13
 exceptiongroup @ file:///C:/b/abs_c5h1o1_b5b/croot/exceptiongroup_1706031441653/work
 executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
+factory-boy==3.3.0
+Faker==26.0.0
 fonttools @ file:///D:/bld/fonttools_1717209304342/work
 fpdf2==2.7.9
 html5lib @ file:///home/conda/feedstock_root/build_artifacts/html5lib_1592930327044/work
 idna==3.7
 importlib-metadata @ file:///C:/b/abs_c1egths604/croot/importlib_metadata-suite_1704813568388/work
 importlib_resources==6.4.0
+iniconfig==2.0.0
 ipykernel @ file:///C:/b/abs_c2u94kxcy6/croot/ipykernel_1705933907920/work
 ipython @ file:///C:/b/abs_e5729i179y/croot/ipython_1694181400005/work
 jedi @ file:///C:/ci/jedi_1644315428289/work
@@ -50,6 +53,7 @@ pdf_reports==0.3.7
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 pillow @ file:///D:/bld/pillow_1712154573692/work
 platformdirs @ file:///C:/b/abs_b6z_yqw_ii/croot/platformdirs_1692205479426/work
+pluggy==1.5.0
 prompt-toolkit @ file:///C:/b/abs_68uwr58ed1/croot/prompt-toolkit_1704404394082/work
 psutil @ file:///C:/Windows/Temp/abs_b2c2fd7f-9fd5-4756-95ea-8aed74d0039flsd9qufz/croots/recipe/psutil_1656431277748/work
 pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
@@ -59,6 +63,8 @@ Pygments @ file:///C:/b/abs_fay9dpq4n_/croot/pygments_1684279990574/work
 pyparsing==3.1.2
 pyphen @ file:///home/conda/feedstock_root/build_artifacts/pyphen_1713947734595/work
 pypugjs==5.11.0
+pytest==8.2.2
+pytest-django==4.8.0
 python-dateutil @ file:///C:/b/abs_3au_koqnbs/croot/python-dateutil_1716495777160/work
 pytz==2024.1
 pywin32==305.1
