@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(206, 125, 26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Garantir que o corpo ocupe toda a altura da janela */
+  margin: 0;
+  /* Remover margens padrão do corpo */
+}
+
+.typewriter {
+  font-family: monospace;
+  display: inline-block;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  /* Certificar que o texto dentro do .typewriter esteja centralizado */
+}
