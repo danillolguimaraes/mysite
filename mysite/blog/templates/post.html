@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Página de postagem</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'blog/css/styles.css' %}">
+  <style>
+    .typewriter {
+      font-family: monospace;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="typewriter" id="typewriter"></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var text = "HELLO WORLD EBAC, EXERCISE FOR DJANGO VIEWS 09/07/2024 12h41 BY : DANILLONEO";
+      var index = 0;
+      var speed = 100; // velocidade em milissegundos
+
+      function typeWriter() {
+        if (index < text.length) {
+          document.getElementById("typewriter").innerHTML += text.charAt(index);
+          index++;
+          setTimeout(typeWriter, speed);
+        } else {
+          setTimeout(function () {
+            document.getElementById("typewriter").innerHTML = "";
+            index = 0;
+            typeWriter();
+          }, speed * 10); // Espera um pouco antes de reiniciar
+        }
+      }
+
+      typeWriter();
+    });
+  </script>
+</body>
+
+</html>
