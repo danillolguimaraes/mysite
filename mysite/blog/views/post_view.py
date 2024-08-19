@@ -1,7 +1,11 @@
-from django.http import HttpResponse
 from django.shortcuts import render
-from django.views import generic
+from django.views.generic import DetailView
+from ..models.post import Post
 
-class PostView(generic.View):
-    def get(self, request, *args, **kwargs):
-        return render(request, 'post.html')
+def home(request):
+    posts = Post.objects.filter(status=1).order_by('-created_on')
+    return render(request, 'post.html', {'posts': posts})
+
+class PostDetailView(DetailView):
+    model = Post
+    template_name = 'post_detail.html'
